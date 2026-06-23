@@ -3,8 +3,8 @@
 % from the FOMR-1 project (https://github.com/joedavidbuilds/FOMR-1). 
 % Significant modifications and improvements were introduced by 
 % Rustu Akay & Mustafa Yusuf Yildirim to improve path planning efficiency.
-% akay@erciyes.edu.tr
-% yusufyildirim@ohu.edu.tr 
+% akay@erciyes.edu.tr & yusufyildirim@ohu.edu.tr 
+% Paper: https://doi.org/10.1016/j.matcom.2024.12.015
 
 clc;
 clear;
