@@ -89,7 +89,7 @@ excluded_area=0;
 for ii=1:Npoly    
     excluded_area=excluded_area+polyarea(map.pgx{ii},map.pgy{ii});
     p1=fill(map.pgx{ii},map.pgy{ii},[0.5,0.5,0.5]);
-
+end
 
 hold off
 
