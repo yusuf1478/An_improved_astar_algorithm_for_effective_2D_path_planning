@@ -14,3 +14,5 @@ SBA* algorithm is based on segmenting the path and creating a local graph for ea
 • Smoother paths enable the maintenance of UVs’ speed and acceleration during motion, minimizing energy consumption.
 
 • Safe paths are planned to enable UVs to overcome obstacles encountered in complex 3D environments.
+
+Paper: https://doi.org/10.1016/j.matcom.2024.12.015
