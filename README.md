@@ -1,5 +1,5 @@
-# SBAStar
-An Improved AStar Algorithm
+# SBA*
+An Improved A* Algorithm
 
 This project propose a novel path planning method called Segment-Based A* (SBA*) aimed at objectives such as generating near-optimal paths, avoiding collisions, and reducing energy consumption. SBA* algorithm has been developed to overcome the complexities encountered by UVs in 3D environments. Using the proposed method, a 3D undirected graph is first created by randomly placing nodes in complex 3D continuous space environments. This graph provides a suitable structure for UVs to navigate around surrounding obstacles to reach their target destinations. Subsequently, new paths are planned on the generated graph, navigating around obstacles between the source and target. This stage focuses on minimizing the total rotation angle, sharp turns, and intensive maneuvers. Thus, more efficient and smoother paths are achieved, reducing energy consumption for UVs.
 
