@@ -6,6 +6,9 @@ This project propose a novel path planning method called Segment-Based A* (SBA*)
 SBA* algorithm is based on segmenting the path and creating a local graph for each segment. This allows for a more precise search and ensures that the paths are smoother. Additionally, SBA* algorithm helps minimize energy consumption by maintaining the speed and acceleration of UVs during motion. This approach enhances the performance of UVs while also maximizing energy efficiency. The proposed method demonstrates superior performance compared to existing path planning algorithms, enabling UVs to move more effectively and efficiently in complex 3D environments. Therefore, SBA* algorithm provides a significant contribution for both academic research and practical applications. The contributions of the method can be summarized as follows:
 
 • By segmenting the path and creating a local graph for each segment, the total rotation angle, sharp turns, and intensive maneuvers are reduced.
+
 • Near-optimal paths are generated, allowing UVs to move more effectively and efficiently.
+
 • Smoother paths enable the maintenance of UVs’ speed and acceleration during motion, minimizing energy consumption.
+
 • Safe paths are planned to enable UVs to overcome obstacles encountered in complex 3D environments.
