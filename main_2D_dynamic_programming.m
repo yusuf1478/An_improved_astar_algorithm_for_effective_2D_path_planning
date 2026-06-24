@@ -43,6 +43,7 @@ enodeund=ns+2;
 if ~isempty(Route)
     dpundirected_route=exnodelocation(Route,:);
     cost=pathcost(dpundirected_route);
+    close all;
     drawRoute('Dynamic Programming',snodeund,enodeund,exnodelocation,exundnodIndex,exunedges,Route,cost);
 end
 
