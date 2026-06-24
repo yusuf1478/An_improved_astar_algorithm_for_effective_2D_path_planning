@@ -41,7 +41,6 @@ enodeund=ns+2;
 
 % optimal path with astar on undirectional map
 [Route] = astar(extungraph,exnodelocation,snodeund,enodeund);
-
 if ~isempty(Route)
     astar_route=exnodelocation(Route,:);
     cost=pathcost(astar_route);
