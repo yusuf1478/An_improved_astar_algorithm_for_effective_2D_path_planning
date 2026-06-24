@@ -10,7 +10,7 @@ sn=exnodIndex(startnode);
 en=exnodIndex(endnode);
 % p1 = plot([-1 -2 -3 -4 -5 -6],[-1 -3 -1 -6 -4 -10],'-*','Color',[0 0 1]);
 
-plot(exnodelocation(1:ns,1),exnodelocation(1:ns,2),'b*');
+% plot(exnodelocation(1:ns,1),exnodelocation(1:ns,2),'b*');
 p2=plot(exnodelocation(sn,1),exnodelocation(sn,2),'ks','LineWidth',2,'MarkerSize',8,'MarkerFaceColor','k');
 p3=plot(exnodelocation(en,1),exnodelocation(en,2),'kx','LineWidth',2,'MarkerSize',10,'MarkerFaceColor','k');
 
@@ -22,7 +22,7 @@ for i=1:2:size(exunedges,1)
     x2=exnodelocation(exunedges(i,2),1);   
     y1=exnodelocation(exunedges(i,1),2);
     y2=exnodelocation(exunedges(i,2),2);  
-    line([x1;x2],[y1;y2],'linewidth',0.1);    
+%     line([x1;x2],[y1;y2],'linewidth',0.1);    
 end
 
 for i=1:length(rt)-1
